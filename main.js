@@ -194,3 +194,28 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+/*==================== SENDING EMAIL ====================*/ 
+// Password : "zvlhiemmybltjeqp",
+const btn = document.getElementById('btn');
+    btn.addEventListener('click', function(e) {
+        e.preventDefault()
+        let name = document.getElementById('name').value;
+        let email = document.getElementById('email').value;
+        let subject = document.getElementById('subject').value;
+        let message = document.getElementById('message').value;
+        let body = 'name: ' + name + '<br> email: ' + email + '<br> subject ' + 
+            subject + '<br> message ' + message ;
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "filsbohsarandok@gmail.com",
+            Password : "**********F273A",
+            To : 'filsbohsarandok@gmail.com',
+            From : email,
+            Subject : subject,
+            Body : body
+        }).then(
+        message => alert(message)
+        );
+    })

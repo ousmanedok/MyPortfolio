@@ -19,7 +19,7 @@
     --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #fff;
+    --container-color: #FFF;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
@@ -217,7 +217,6 @@ img {
     border-radius: 1.5rem 1.5rem 0 0;
     transition: .3s;
   }
-  
 }
 
 .nav__list {
@@ -372,7 +371,7 @@ button--link {
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: #fff;
+  color: #FFF;
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
@@ -389,12 +388,12 @@ button--link {
 }
 
 .button--white{
-  background-color: #fff;
+  background-color: #FFF;
   color: var(--first-color);
 }
 
 .button--white:hover{
-  background-color: #fff;
+  background-color: #FFF;
 }
 
 .button--flex {
@@ -819,7 +818,7 @@ color: var(--first-color);
 
 .project__title,
 .project__description{
-  color: #fff;
+  color: #FFF;
 }
 
 .project__img{
@@ -968,7 +967,7 @@ bottom: 0;
 .footer__subtitle,
 .footer__link,
 .footer__social{
-  color: #fff;
+  color: #FFF;
 }
 
 /*========== SCROLL UP ==========*/
@@ -990,7 +989,7 @@ bottom: 0;
 
 .scrollup__icon{
   font-size: 1.5rem;
-  color: #fff;
+  color: #FFF;
 }
 
 /* Show scroll */
